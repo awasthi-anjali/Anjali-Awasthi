@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {     int t, n, d;
     printf("Enter test cases : ");
@@ -17,9 +16,8 @@ int main()
         for (int j = 0; j < n; j++)
             scanf("%d", &a[j]);
         for (int i = 0; i < d; i++)
-        {
             a[k++] = a[i];
-        }
+        
         for(int k=d;k<size;k++)
         a[k-d]=a[k];
        for (int k = 0; k < n; k++)
